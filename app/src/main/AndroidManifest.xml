@@ -9,8 +9,8 @@
 
     <application
         android:label="Car Mirror"
-        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         android:icon="@drawable/ic_car"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
 
         <meta-data
             android:name="com.google.android.gms.car.application"
