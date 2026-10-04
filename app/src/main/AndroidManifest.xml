@@ -10,6 +10,7 @@
     <application
         android:label="Car Mirror"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        android:icon="@drawable/ic_car"
 
         <meta-data
             android:name="com.google.android.gms.car.application"
@@ -44,6 +45,8 @@
 
         <service
             android:name=".CarMirrorService"
+            android:label="Car Mirror"
+            android:icon="@drawable/ic_car"
             android:exported="true">
             <intent-filter>
                 <action android:name="androidx.car.app.CarAppService" />
